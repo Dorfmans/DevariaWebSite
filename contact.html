@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Devaria - Contact Us</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us!</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="teachers.html">Teachers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Insert your Name and E-Mail to contact Devaria</h2>
+            <section>
+                <form action="index.html" >
+                    <p>
+                        <label>Name:</label><input type="text" name="Name" maxlength="70" required="true"/>
+                    </p>
+                    <p>
+                        <label>E-mail:</label><input type="text" name="Email" maxlength="150" required="true"/>
+                    </p>
+                    <p>
+                        <label>Feedback:</label><textarea name="Feedback" cols="50" rows="4" required="true"></textarea>
+                    </p>
+                    <p>                        
+                        <label>Gender:</label>
+                        <input type="radio" name="Gender"/><label>Female</label>
+                        <input type="radio" name="Gender"/><label>Male</label>
+                    </p>
+                    <p>                        
+                        <label>Tell me where you first heard of Devaria:</label>
+                        <select name="MeetDevaria">
+                            <option selected>--Select your option--</option>
+                            <option>Youtube</option>
+                            <option>Google</option>
+                            <option>LinkedIn</option>
+                            <option>Friends</option>
+                            <option>Other</option>
+                        </select>
+                    </p>
+                    <P>
+                        <input type="checkbox" name="Accept" value="Accpet"/>
+                        <label>I Accept to subscribe in the Newsletter</label>
+                    </P>
+                    <p>
+                        <input type="submit" name="Send" value="Send"/>
+                        <input type="reset" name="Reset" value="Reset"/>
+                    </p>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <span>contato@devaria.com.br</span>
+                <br/>
+                <span>Our Youtube channel!</span>
+            </section>
+        </footer>
+    </body>
+</html>
