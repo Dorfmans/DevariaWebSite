@@ -1,0 +1,27 @@
+/* 
+azul escuro
+#1c0c3f
+
+azul claro 
+#25cbd3
+
+verde 
+#3bd42d
+
+roxo 
+#5e49ff
+
+cinza 
+#f0f5ff
+*/
+
+html {
+    height: 100px;
+}
+
+body {
+    background-color: #1c0c3f;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+}
